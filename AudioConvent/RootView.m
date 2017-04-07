@@ -149,7 +149,6 @@
         
         NSString *commandStr = [NSString stringWithFormat:@"%@ -i %@ -b:a 320k -acodec mp3 -ar 44100 -ac 2 %@",ffprobePath, filePath, newFilePath];
         
-        //        NSString *commandStr = [NSString stringWithFormat:@"%@ %@",ffprobePath, filePath];
         NSLog(@"%@",[self runCommand:commandStr]);
     }
 }
